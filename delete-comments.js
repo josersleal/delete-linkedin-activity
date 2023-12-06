@@ -56,6 +56,8 @@ async function init() {
     deleteActivity();
     if (keepGoing) {
         await sleep(5);
+        // get show more button and click it
+        
         init();
     }
 }
